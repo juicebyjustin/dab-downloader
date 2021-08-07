@@ -27,7 +27,7 @@ namespace DabDownload
 
             if (year > 2000)
             {
-                //DownloadYear(year, 1, 366);
+                DownloadYear(year, 1, 366);
                 /*
                 Console.WriteLine("Downloaded day 1-50. Hit enter to continue.");
                 Console.ReadLine();
@@ -61,7 +61,7 @@ namespace DabDownload
 
                 Console.WriteLine("Downloaded day 301-366. Hit enter to continue.");
                 */
-                TagEdit(year, 1, 366);
+               // TagEdit(year, 1, 366);
 
                 Console.ReadLine();
             }
